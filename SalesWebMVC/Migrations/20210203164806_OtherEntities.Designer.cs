@@ -31,7 +31,7 @@ namespace SalesWebMVC.Migrations
                     b.ToTable("Department");
                 });
 
-            modelBuilder.Entity("SalesWebMVC.Models.SalesRercord", b =>
+            modelBuilder.Entity("SalesWebMVC.Models.SalesRecord", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -73,7 +73,7 @@ namespace SalesWebMVC.Migrations
                     b.ToTable("Seller");
                 });
 
-            modelBuilder.Entity("SalesWebMVC.Models.SalesRercord", b =>
+            modelBuilder.Entity("SalesWebMVC.Models.SalesRecord", b =>
                 {
                     b.HasOne("SalesWebMVC.Models.Seller", "Seller")
                         .WithMany("Sales")
