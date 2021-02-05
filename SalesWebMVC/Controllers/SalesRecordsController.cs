@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalesWebMVC.Services;
 
-namespace SalesWebMvc.Controllers
+namespace SalesWebMVC.Controllers
 {
     public class SalesRecordsController : Controller
     {
