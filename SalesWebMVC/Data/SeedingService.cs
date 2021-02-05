@@ -10,7 +10,7 @@ namespace SalesWebMVC.Data
     public class SeedingService
     {
         //registrar dependencia do SeedingService no nosso DbContext (SalleswebMVCContest)
-        private SalesWebMVCContext _context;
+        private readonly SalesWebMVCContext _context;
 
         public SeedingService(SalesWebMVCContext context)
         {
